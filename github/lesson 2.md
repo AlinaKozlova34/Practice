@@ -17,9 +17,11 @@
 Теперь у вас есть каталог с одним файлом. Чтобы создать git репозиторий из этого каталога, выполните команду git init.
 
 ВЫПОЛНИТЕ:
+
 	git init
 
 РЕЗУЛЬТАТ:
+
 	$ git init
 	Initialized empty Git repository in /Users/Alina/Documents/Presentations/githowto/auto/hello/.git/
 
@@ -27,12 +29,14 @@
 Теперь давайте добавим в репозиторий страницу «Hello, World».
 
 ВЫПОЛНИТЕ:
+
 	git add hello.html
 	git commit -m "First Commit"
 
 Вы увидите …
 
 РЕЗУЛЬТАТ:
+
 	$ git add hello.html
 	$ git commit -m "First Commit"
 	[master (root-commit) 911e8c9] First Commit
