@@ -21,7 +21,7 @@
 
 РЕЗУЛЬТАТ:
 	$ git init
-	Initialized empty Git repository in /Users/alex/Documents/Presentations/githowto/auto/hello/.git/
+	Initialized empty Git repository in /Users/Alina/Documents/Presentations/githowto/auto/hello/.git/
 
  Добавьте страницу в репозиторий
 Теперь давайте добавим в репозиторий страницу «Hello, World».
