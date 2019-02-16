@@ -2,6 +2,7 @@
 Если вы никогда ранее не использовали git, для начала вам необходимо осуществить установку. Выполните следующие команды, чтобы git узнал ваше имя и электронную почту. Если git уже установлен, можете переходить к разделу окончания строк.
 
 ВЫПОЛНИТЬ:
+
 	git config --global user.name "AlinaKozlova"
 	git config --global user.email "art-line.lina@yandex.ru"
 
@@ -10,6 +11,7 @@
 Для пользователей Windows:
 
 ВЫПОЛНИТЬ:
+
 	git config --global core.autocrlf true
 	git config --global core.safecrlf true
 Установка отображения unicode
