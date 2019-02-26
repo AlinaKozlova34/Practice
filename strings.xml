@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">Вредные привычки</string>
+    <string name="dev_name">PADev.PRO</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="notifications">Уведомления</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О приложении</string>
+    <string name="habit_add">Добавить привычку</string>
+
+    <string name="habit_add_smoke">Табакокурение</string>
+    <string name="habit_add_alcoholism">Алкоголизм</string>
+    <string name="habit_add_junk_food">Вредная еда</string>
+    <string name="habit_add_gambling_addiction">Игромания</string>
+    <string name="habit_add_foul_language">Сквернословие</string>
+    <string name="habit_add_shoping">Шопоголизм</string>
+    <string name="habit_add_laziness">Лень</string>
+    <string name="habit_add_lie">Ложь</string>
+    <string name="habit_add_unnecessary_things">Захломленье</string>
+    <string name="habit_add_unnecessary_things_long">Привычка хранить не нужные вещи</string>
+    <string name="habit_add_nail_biting">Онихофагия</string>
+    <string name="habit_add_nail_biting_long">Привычка грызть ногти</string>
+    <string name="habit_add_other">Дугое</string>
+
+    <string name="default_habit">Привычка</string>
+
+    <string name="drawer_item_notification">Уведомления</string>
+    <string name="drawer_item_help">Настройки</string>
+    <string name="drawer_item_about">О приложении</string>
+    <string name="drawer_item_exit">Выход</string>
+    
+    <string name="habit_name">Название привычки</string>
+    <string name="habit_danger_time">Время</string>
+    <string name="habit_danger_money">Деньги</string>
+    <string name="habit_danger_health">Здоровье</string>
+
+    <string name="habit_tab_calendar">Календарь</string>
+    <string name="habit_tab_cases">Список</string>
+    <string name="habit_tab_result">Итог</string>
+
+</resources>
