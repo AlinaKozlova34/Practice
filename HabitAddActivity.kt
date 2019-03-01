@@ -5,10 +5,7 @@ import android.support.design.widget.FloatingActionButton
 import android.support.v7.widget.Toolbar
 import android.text.Layout
 import android.view.View
-import android.widget.LinearLayout
-import android.widget.RadioButton
-import android.widget.RadioGroup
-import android.widget.TextView
+import android.widget.*
 import padev.badhabits.R
 import padev.badhabits.core.view.BaseActivity
 
@@ -56,7 +53,75 @@ class HabitAddActivity: BaseActivity() {
             val radioGroup = findViewById <RadioGroup> (R.id.activity_habit_add_radio_group)
             val radioButton = findViewById <RadioButton> (radioGroup.checkedRadioButtonId)
 
-            radioButton.text.toString()
+            var name = radioButton.text.toString()
+            var time = false
+            var money = false
+            var health = false
+
+            if (name == getString(R.string.habit_add_other)) {
+
+                val textView = findViewById<TextView>(R.id.activity_add_habit_name)
+                name = textView.text.toString()
+                val timeCheckBox = findViewById<CheckBox>(R.id.activity_add_habit_time)
+                val moneyCheckBox = findViewById<CheckBox>(R.id.activity_add_habit_money)
+                val healthCheckBox = findViewById<CheckBox>(R.id.activity_add_habit_health)
+
+                time = timeCheckBox.isChecked
+                money = moneyCheckBox.isChecked
+                health = healthCheckBox.isChecked
+            }
+
+            else if (name == getString(R.string.habit_add_smoke)) {
+                time = true
+                money = true
+                health = true
+            }
+            else if (name == getString(R.string.habit_add_alcoholism)) {
+                time = true
+                money = true
+                health = true
+            }
+            else if (name == getString(R.string.habit_add_junk_food)) {
+                time = false
+                money = true
+                health = true
+            }
+            else if (name == getString(R.string.habit_add_gambling_addiction)) {
+                time = true
+                money = true
+                health = true
+            }
+            else if (name == getString(R.string.habit_add_foul_language)) {
+                time = true
+                money = false
+                health = false
+            }
+            else if (name == getString(R.string.habit_add_shoping)) {
+                time = true
+                money = true
+                health = false
+            }
+            else if (name == getString(R.string.habit_add_laziness)) {
+                time = true
+                money = false
+                health = true
+            }
+            else if (name == getString(R.string.habit_add_lie)) {
+                time = true
+                money = false
+                health = false
+            }
+            else if (name == getString(R.string.habit_add_unnecessary_things)) {
+                time = true
+                money = true
+                health = true
+            }
+            else if (name == getString(R.string.habit_add_nail_biting)) {
+                time = false
+                money = false
+                health = true
+            }
+
         }
 
     }
